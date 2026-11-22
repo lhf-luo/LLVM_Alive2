@@ -1,0 +1,11 @@
+; Environment smoke test: deliberately invalid, expect a counterexample.
+define i8 @src(i8 noundef %x) {
+entry:
+  %r = add i8 %x, 1
+  ret i8 %r
+}
+
+define i8 @tgt(i8 noundef %x) {
+entry:
+  ret i8 %x
+}
