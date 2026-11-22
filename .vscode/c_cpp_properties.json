@@ -3,7 +3,9 @@
         {
             "name": "Win32",
             "includePath": [
-                "${workspaceFolder}/**"
+                "${workspaceFolder}/**",
+                "D:/seu/proof_vali/llvm-project/clang/include",
+                "D:/seu/proof_vali/llvm-project/llvm/include"
             ],
             "defines": [
                 "_DEBUG",
@@ -13,7 +15,7 @@
             "windowsSdkVersion": "10.0.22621.0",
             "compilerPath": "D:/visual/VC/Tools/MSVC/14.39.33519/bin/Hostx64/x64/cl.exe",
             "cStandard": "c17",
-            "cppStandard": "c++17",
+            "cppStandard": "c++20",
             "intelliSenseMode": "windows-msvc-x64"
         }
     ],
